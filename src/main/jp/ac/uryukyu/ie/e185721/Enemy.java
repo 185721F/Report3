@@ -12,7 +12,7 @@ public class Enemy extends LivingThing{
     public Enemy (String name, int maximumHP, int attack) {
         super(name,maximumHP,attack);
         setDead(false);
-        System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
+
     }
 
     /**
